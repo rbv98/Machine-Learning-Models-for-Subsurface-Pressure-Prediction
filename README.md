@@ -3,6 +3,8 @@ This repository contains the implementation of a novel Hybrid Meta-Ensemble (HME
 
 🎯 Overview
 Accurate pore pressure prediction is critical for safe and efficient drilling operations. This project introduces a comprehensive machine learning framework that combines five diverse models (CNN, RNN, DFNN, Random Forest, and XGBoost) through an advanced meta-ensemble approach to achieve superior prediction accuracy (R² = 0.938) on blind well validation.
+
+
 📁 Repository Structure
 The repository is organized with separate directories for data (well log CSV files), saved models, generated figures, and the main Jupyter notebook that implements the entire workflow. The dataset includes four wells from the Potwar Basin in Pakistan, with three wells used for training and one held out as a completely blind test well.
 
